@@ -1,0 +1,45 @@
+.App{
+  justify-content: center;
+  align-items: center;
+display: grid;
+  text-align: center;
+}
+.imagenPokemon{
+  width: 250px;
+ 
+  border-radius: 100%;
+
+}
+.formBusqueda{
+  margin-top: 2em;
+  padding: 5px;
+}
+.cardContainer{
+border: solid 2px grey;
+  margin-top: 3em;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(255 255 255 / 50%);
+  
+}
+.inputBusqueda{
+  margin: 5px;
+}
+.headerCard{
+  padding: 0%;
+  margin: 0%;
+  background-image: url('C:\xampp\htdocs\ejercicios\Curso\apicurso\src\pokebolafondo.jpg');
+background-size:initial;
+background-position: center;
+border-radius: 5px;
+}
+.pokeName{
+  padding-top: 5px;
+  color: white;
+  margin: 0;
+}
+body{
+background-image: url('C:\xampp\htdocs\ejercicios\Curso\apicurso\src\fondo.jpg');
+background-position:unset;
+background-size: cover;
+}
